@@ -1,22 +1,37 @@
 <html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
-        <title>O que é HTML?</title>
         <style>
             h1{
                 text-align: center;
+                color: antiquewhite;
+                font-size: 300%;
+                
             }
             p{
+                color: wheat;
+                font-size: x-large;
             }
             body {
-                background-color: rgb(22, 23, 24    );
-                color: rgb(244, 244, 244);
+                background-color: rgb(25, 25, 25);
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 margin-left: 35px;
-                margin-right: 35px; 
+                margin-right: 25px; 
             }
+            
+            .imagem {
+                 display: block;
+                 margin-left: auto;
+                 margin-right: auto;
+                 width: 50%;
+            }
+            
         </style>
     </head>
     <body>
-        <p style="                color: rgb(244, 244, 244);       "
+        <h1><Strong>A Copa do Mundo</Strong></h1>
+        <p> A Copa do Mundo é uma competição internacional organizada pela Fifa, a cada quatro em quatro anos. A Copa foi realizada pela primeira vez em 1930, com a primeira competição sediada no Uruguai.
+        </p>
+        <p>O Brasil participou da Copa do mundo pela primeira vez no ano de 1930, e é o único país a participar de todas as edições da Copa, até 2018 </p>
+        <p style="color: red;"> <strong>O Brasil ganhou a Copa do Mundo pela primeira vez em <em>1958</em>, e irá jogar no dia <i>24/11/2022</i>, contra a Suíça.</strong> </p>
+   <img src="https://img.freepik.com/fotos-premium/bandeira-da-copa-do-mundo-de-futebol-do-brasil_118047-484.jpg?w=512" class="imagem">
     </body>
